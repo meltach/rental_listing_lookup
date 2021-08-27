@@ -45,7 +45,7 @@ function App() {
     }, 4000);
     return () => clearTimeout(timer);
   }, [coordinates, Object.keys(address).length > 0 ? address : ""]);
-  console.log(rentals);
+
   return (
     <div className="App">
       <Header setAddress={setAddress} isLoading={isLoading} />
