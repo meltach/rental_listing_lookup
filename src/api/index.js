@@ -3,7 +3,6 @@ import axios from "axios";
 
 const URL = "https://realty-mole-property-api.p.rapidapi.com/rentalListings";
 console.log(process.env.REACT_APP_RAPID_API_KEY);
-console.log("((((((((((((((((((((((((((((((((");
 
 export const getRentalList = async (coordinates, address) => {
   try {
